@@ -20,12 +20,12 @@
         for (Pedido pedido : (List<Pedido>)request.getAttribute("pedidos")) {
         %>
         <tr>
-            <th scope="row"><%=i%></th>
+            <th scope="row"><%=i+1%></th>
             <td><%=(pedido.isAberto())?"Aberto":"Fechado"%></td>
             <td><%=pedido.getHoraInicio()%></td>
             <td><%=(pedido.isAberto())?"--":pedido.getHoraFim()%></td>
             <td><%=pedido.getIdMesa()%></td>
-            <td><a href="">Visualizar Itens</a></td>
+            <td><a href="lista-itens.html?id=<%=i%>">Visualizar Itens</a></td>
             <td><a href="finalizar-pedido.html?i=<%=i%>">Fechar Pedido</a></td>
             <td><a href="">Adicionar Item</a></td>
             <td><a href="">Editar Item</a></td>

@@ -2,7 +2,7 @@
 <%@page import="java.util.List"%>
 <%@page import="br.ufjf.dcc192.Mesa"%>
 <%@include file="jspf/header.jspf" %>
-<table class="table table-striped">
+<table class="table table-striped table-bordered">
     <thead>
         <tr>
             <th scope="col">Pedido</th>
@@ -10,8 +10,8 @@
             <th scope="col">Hora Abertura</th>
             <th scope="col">Hora Fechamento</th>
             <th scope="col">Mesa</th>
-            <th scope="col">Item</th>
-            <th scope="col" colspan="3">Ação</th>
+            <th scope="col" colspan="2">Item</th>
+            <th scope="col">Ação</th>
         </tr>
     </thead>
     <tbody>
@@ -26,9 +26,8 @@
             <td><%=(pedido.isAberto())?"--":pedido.getHoraFim()%></td>
             <td><%=pedido.getIdMesa()%></td>
             <td><a href="lista-itens.html?id=<%=i%>">Visualizar Itens</a></td>
+            <td><a href="adiciona-item.html?id=<%=i%>">Adicionar Item</a></td>
             <td><a href="finalizar-pedido.html?i=<%=i%>">Fechar Pedido</a></td>
-            <td><a href="">Adicionar Item</a></td>
-            <td><a href="">Editar Item</a></td>
         </tr>
         <%
           i++;  }

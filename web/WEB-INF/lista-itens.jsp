@@ -8,6 +8,7 @@
             <th scope="col">Produto</th>
             <th scope="col">Preço</th>
             <th scope="col">Quantidade</th>
+            <!--<th scope="col" colspan="2">Ação</th>-->
         </tr>
     </thead>
     <tbody>
@@ -19,6 +20,8 @@
             <td><%=item.getProduto()%></td>
             <td><%=item.getPreco()%></td>
             <td><%=item.getQuantidade()%></td>
+        <!--    <td><a href="editar-item.html?id=<%=i%>">Editar</a></td>
+            <td><a href="">Excluir</a></td> -->
         </tr>
         <% i++;
             }%>
@@ -26,9 +29,10 @@
     <tfoot>
         <tr>
             <th scope="row">Total:</th>
-            <td colspan="3"><%=request.getAttribute("total")%></td>
+            <td colspan="5"><%=request.getAttribute("total")%></td>
         </tr>
     </tfoot>
 </table>
 <a href="lista-pedidos.html"><input type="button" class="btn btn-primary" value="Voltar"></a>
+<a href="adiciona-item.html?id=<%=request.getAttribute("id")%>"><input type="button" class="btn btn-success" value="Adicionar Item"></a>
 <%@include file="jspf/footer.jspf" %>

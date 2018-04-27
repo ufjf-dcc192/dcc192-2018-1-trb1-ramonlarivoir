@@ -33,8 +33,12 @@
 - A página de *Lista de Pedidos* exibe uma tabela com todos os pedidos registrados onde é possível finalizar o pedido, adicionar novo item ou vizualizar os itens.
 - A página de *Lista  de Itens* exite uma tabela com todos os itens do pedido.
 
+---
+
 ### Dificuldades
 - Uma dificuldade foi tentar passar através do método **POST** o id do pedido para a listagem dos itens para que possa bloquear algum tipo de erro que o usuário tente forçar. Porém, no final, foi adotado o método de **GET** para passar o id do pedido por parâmetro.
+
+---
 
 ### Melhorias Futuras
 - Uma coisa que pode ser melhorada é a alteração e exclusão dos itens dos pedidos.

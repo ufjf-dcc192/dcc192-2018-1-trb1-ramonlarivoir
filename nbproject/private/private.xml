@@ -3,18 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/src/java/br/ufjf/dcc192/Produto.java</file>
             <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/src/java/br/ufjf/dcc192/ListaDePedidos.java</file>
-            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/src/java/br/ufjf/dcc192/ListaDeProdutos.java</file>
+            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/src/java/br/ufjf/dcc192/ItemServlet.java</file>
+            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/src/java/br/ufjf/dcc192/PedidoServlet.java</file>
+            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/web/WEB-INF/lista-pedidos.jsp</file>
+            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/src/java/br/ufjf/dcc192/Mesa.java</file>
+            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/web/css/style.css</file>
+            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/web/WEB-INF/adiciona-item.jsp</file>
+            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/web/WEB-INF/novo-pedido.jsp</file>
+            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/web/WEB-INF/pedido.jsp</file>
             <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/src/java/br/ufjf/dcc192/Pedido.java</file>
             <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/src/java/br/ufjf/dcc192/Item.java</file>
-            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/src/java/br/ufjf/dcc192/PedidoServlet.java</file>
-            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/web/WEB-INF/mesa.jsp</file>
-            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/src/java/br/ufjf/dcc192/ListaDeMesas.java</file>
-            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/src/java/br/ufjf/dcc192/Mesa.java</file>
-            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/src/java/br/ufjf/dcc192/MesaServlet.java</file>
-            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/web/WEB-INF/lista-mesa.jsp</file>
-            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/web/WEB-INF/abrir-pedido.jsp</file>
+            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/web/WEB-INF/editar-item.jsp</file>
+            <file>file:/C:/Users/Ramon%20Larivoir/Desktop/Ramon/Materiais%20UFJF/Laboratório%20de%20Programação%20de%20Sistemas%20Web/Exercícios/Lista%202/dcc192-2018-1-trb1/web/WEB-INF/lista-itens.jsp</file>
         </group>
     </open-files>
 </project-private>

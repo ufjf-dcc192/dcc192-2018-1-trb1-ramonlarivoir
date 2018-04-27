@@ -31,11 +31,19 @@ public class ItemServlet extends HttpServlet {
             listaItens(request, response);
         } else if ("/adiciona-item.html".equals(request.getServletPath())) {
             Integer id = Integer.parseInt(request.getParameter("id"));
-            id++;
-            titulo = "Adicionar item ao Pedido " + id;
-            request.setAttribute("titulo", titulo);
+            if(ListaDePedidos.getInstance().get(id).isAberto() == true) {
+                id++;
+                titulo = "Adicionar item ao Pedido " + id;
+                request.setAttribute("titulo", titulo);
 
-            adicionaItem(request, response);
+                adicionaItem(request, response);
+            } else {
+                String titulo = "Este pedido já foi finalizado!";
+                request.setAttribute("titulo", titulo);
+                RequestDispatcher despachante = request.getRequestDispatcher("/WEB-INF/pedido-finalizado.jsp");
+                despachante.forward(request, response);
+            }
+            
         }
     }
 

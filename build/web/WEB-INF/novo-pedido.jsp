@@ -4,15 +4,15 @@
 <form method="POST">
     <div class="form-group">
         <label for="produto">Produto</label>
-        <input type="text" class="form-control" id="produdo" name="produto">
+        <input type="text" class="form-control" id="produdo" name="produto" required>
     </div>
     <div class="form-group">
         <label for="quantidade">Quantidade</label>
-        <input type="text" class="form-control" id="quantidade" name="quantidade">
+        <input type="number" class="form-control" id="quantidade" name="quantidade" required>
     </div>
     <div class="form-group">
         <label for="preco">Preço</label>
-        <input type="text" class="form-control" id="preco" name="preco">
+        <input type="number" class="form-control" id="preco" name="preco" required>
     </div>
     <div class="form-group">
     <label for="mesa">Mesa</label>
